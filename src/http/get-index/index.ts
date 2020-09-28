@@ -5,6 +5,6 @@ export async function handler() {
     headers: {
       "content-type": "text/html; charset=utf8",
     },
-    body: await render(),
+    body: 'henlo from deno 🦕',
   };
 }
